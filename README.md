@@ -1,3 +1,3 @@
 # laboratoryREST
 
-A RESTful service with MongoDB for laboratories.
+A simple RESTful service with MongoDB for laboratories.

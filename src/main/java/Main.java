@@ -5,6 +5,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 import javax.ws.rs.core.UriBuilder;
 import java.net.URI;
 
+import project.structures.CustomHeaders;
 import project.structures.DateParamConverterProvider;
 
 /**
@@ -16,6 +17,7 @@ public class Main {
         URI baseUri = UriBuilder.fromUri("http://localhost/").port(8080).build();
         ResourceConfig config = new ResourceConfig(Students.class, Courses.class);
         config.register(DateParamConverterProvider.class);
+        config.register(CustomHeaders.class);
         HttpServer server = GrizzlyHttpServerFactory.createHttpServer(baseUri, config);
     }
 }

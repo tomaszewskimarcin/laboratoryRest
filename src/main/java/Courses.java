@@ -38,11 +38,12 @@ public class Courses {
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getCourses() throws ClassNotFoundException {
         org.mongodb.morphia.query.Query<Course> query = Model.getInstance().datastore.createQuery(Course.class);
-        ArrayList<Course> cou = (ArrayList<Course>) query.asList();
-        if(cou.size() > 0) {
+        ArrayList<Course> cou = new ArrayList<Course>();
+        if(query.asList() != null)cou = (ArrayList<Course>) query.asList();
+        try{
             GenericEntity<ArrayList<Course>> courses = new GenericEntity<ArrayList<Course>>(cou){};
             return Response.status(200).header("Success","fetched").entity(courses).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -54,11 +55,12 @@ public class Courses {
         if(teacher != null) {
             query.field("teacher").equal(teacher);
         }
-        ArrayList<Course> cou = (ArrayList<Course>) query.asList();
-        if(cou.size() > 0) {
+        ArrayList<Course> cou = new ArrayList<Course>();
+        if(query.asList() != null)cou = (ArrayList<Course>) query.asList();
+        try{
             GenericEntity<ArrayList<Course>> courses = new GenericEntity<ArrayList<Course>>(cou){};
             return Response.status(200).header("Success","fetched").entity(courses).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -69,10 +71,11 @@ public class Courses {
     public Response getPrzedmiot(@PathParam("id") int id){
         //Course pr = Model.getInstance().getCourses().get(id);
         org.mongodb.morphia.query.Query<Course> query = Model.getInstance().datastore.createQuery(Course.class).field("lId").equal(id);
-        Course pr = query.get();
-        if(pr!=null){
+        Course pr = new Course();
+        if(query.asList() != null)pr = query.get();
+        try{
             return Response.status(200).header("Success","fetched").entity(pr).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -103,11 +106,12 @@ public class Courses {
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getOcenyPrzedmiotu(@PathParam("id") int id){
         org.mongodb.morphia.query.Query<Grade> query = Model.getInstance().datastore.createQuery(Grade.class).field("course").equal(id);
-        ArrayList<Grade> oc = (ArrayList<Grade>) query.asList();
-        if(oc.size() > 0) {
+        ArrayList<Grade> oc = new ArrayList<Grade>();
+        if(query.asList() != null)oc = (ArrayList<Grade>) query.asList();
+        try{
             GenericEntity<ArrayList<Grade>> grades = new GenericEntity<ArrayList<Grade>>(oc){};
             return Response.status(200).header("Success","fetched").entity(grades).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }

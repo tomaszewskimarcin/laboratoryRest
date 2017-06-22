@@ -62,12 +62,12 @@ public class Students {
         if(lname != null) {
             query.field("lastname").equal(lname);
         }
-
-        ArrayList<Student> students = (ArrayList<Student>) query.asList();
-        if (students.size() > 0) {
+        ArrayList<Student> students = new ArrayList<Student>();
+        students = (ArrayList<Student>) query.asList();
+        try{
             return Response.ok(new GenericEntity<ArrayList<Student>>(students) {
             }).build();
-        } else {
+        } catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -115,11 +115,12 @@ public class Students {
             }
         }
 
-        ArrayList<Student> students = (ArrayList<Student>) query.asList();
-        if (students.size() > 0) {
+        ArrayList<Student> students = new ArrayList<Student>();
+        if(query.asList() != null)students = (ArrayList<Student>) query.asList();
+        try{
             return Response.ok(new GenericEntity<ArrayList<Student>>(students) {
             }).build();
-        } else {
+        } catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -128,11 +129,12 @@ public class Students {
     @Path("/{id}")
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Response getStudent(@PathParam("id") int id){
+        Student st = new Student();
         org.mongodb.morphia.query.Query<Student> query = Model.getInstance().datastore.createQuery(Student.class).field("lId").equal(id);
-        Student st = query.get();
-        if(st != null){
+        if(query.asList() != null)st = query.get();
+        try{
             return Response.status(200).header("Success","fetched").entity(st).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }
@@ -154,11 +156,12 @@ public class Students {
             query.field("grade").lessThan(lGrade);
         }
 
-        ArrayList<Grade> oc = (ArrayList<Grade>) query.asList();
-        if(oc.size() > 0) {
+        ArrayList<Grade> oc = new ArrayList<Grade>();
+        if(query.asList() != null)oc = (ArrayList<Grade>) query.asList();
+        try{
             GenericEntity<ArrayList<Grade>> grades = new GenericEntity<ArrayList<Grade>>(oc){};
             return Response.status(200).header("Success","fetched").entity(grades).build();
-        }else{
+        }catch (Exception e){
             return Response.status(404).build();
         }
     }

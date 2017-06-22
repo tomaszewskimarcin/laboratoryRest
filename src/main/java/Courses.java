@@ -15,6 +15,7 @@ import java.util.*;
 @Path("/courses")
 public class Courses {
 
+    public Courses(){}
 
     /*@GET
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})

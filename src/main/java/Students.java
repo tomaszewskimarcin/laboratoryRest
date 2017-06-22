@@ -50,6 +50,8 @@ public class Students {
         }
     }*/
 
+
+
     @GET
     @Consumes(MediaType.APPLICATION_JSON)
     public synchronized Response getAllStudents(@QueryParam("fname") String fname, @QueryParam("lname") String lname) {

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78203253-842c-4c0e-ae03-542c84b7e7d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model.java" afterPath="$PROJECT_DIR$/src/main/java/Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" afterPath="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Courses.java" afterPath="$PROJECT_DIR$/src/main/java/Courses.java" />
     </list>
     <ignored path="lab01rest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,14 +81,12 @@
       <file leaf-file-name="Courses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Courses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1328">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="143">
+              <caret line="183" column="132" lean-forward="false" selection-start-line="183" selection-start-column="132" selection-end-line="183" selection-end-column="132" />
               <folding>
                 <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
                 <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
                 <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-                <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-                <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -205,11 +201,11 @@
         <option value="$PROJECT_DIR$/src/main/java/project/structures/Course.java" />
         <option value="$USER_HOME$/laboratoryREST/lab01rest/src/main/java/Courses.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/structures/CustomHeaders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Courses.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Students.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Courses.java" />
       </list>
     </option>
   </component>
@@ -646,7 +642,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32554516" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32554516" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -776,8 +772,6 @@
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-            <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-            <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,8 +845,6 @@
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-            <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-            <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -975,8 +967,6 @@
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-            <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-            <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1078,8 +1068,6 @@
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-            <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-            <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1263,14 +1251,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Courses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1328">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="143">
+          <caret line="183" column="132" lean-forward="false" selection-start-line="183" selection-start-column="132" selection-end-line="183" selection-end-column="132" />
           <folding>
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
-            <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
-            <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
           </folding>
         </state>
       </provider>

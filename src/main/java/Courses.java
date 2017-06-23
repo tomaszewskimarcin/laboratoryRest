@@ -181,7 +181,7 @@ public class Courses {
     @Path("/{id}/grades/{idO}")
     @Consumes({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public synchronized Response aktualizujGrade(Grade g, @PathParam("id") int id,@PathParam("idO") int idO){
-        org.mongodb.morphia.query.Query<Grade> query = Model.getInstance().datastore.createQuery(Grade.class).field("lId").equal(g.getId());
+        org.mongodb.morphia.query.Query<Grade> query = Model.getInstance().datastore.createQuery(Grade.class).field("lId").equal(idO);
         Grade gr = query.get();
         if(gr != null && gr.getIdPrzedmiot() == id){
             Integer student = null;

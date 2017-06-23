@@ -1,5 +1,6 @@
 package project.structures;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.bson.types.ObjectId;
 import org.mongodb.morphia.annotations.Entity;
 import org.mongodb.morphia.annotations.Id;
@@ -31,6 +32,7 @@ public class Grade {
     @Property("grade")
     private Double stopien;
     @Property("date")
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-dd", timezone="CET")
     private Date dataWystawienia;
 
     public Grade() {

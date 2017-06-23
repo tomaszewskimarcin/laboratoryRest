@@ -33,7 +33,7 @@ public class Model {
         morphia.mapPackage("project.structures");
         datastore = morphia.createDatastore(new MongoClient(), "project");
         datastore.ensureIndexes();
-       // przykladoweDane();
+        //przykladoweDane();
     }
 
     private void przykladoweDane(){

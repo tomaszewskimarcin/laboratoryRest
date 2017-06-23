@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="78203253-842c-4c0e-ae03-542c84b7e7d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Courses.java" afterPath="$PROJECT_DIR$/src/main/java/Courses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Students.java" afterPath="$PROJECT_DIR$/src/main/java/Students.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model.java" afterPath="$PROJECT_DIR$/src/main/java/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" afterPath="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" />
     </list>
     <ignored path="lab01rest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="-242">
+              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getInstance#0;class#Model#0" expanded="false" />
@@ -45,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Students.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Students.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Students.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2113">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="128">
+              <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
               <folding>
                 <element signature="e#2368#2377#0" expanded="true" />
                 <element signature="e#4145#4154#0" expanded="true" />
@@ -57,24 +69,23 @@
                 <element signature="e#5933#5951#0" expanded="true" />
                 <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
                 <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-                <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-                <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-                <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-                <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-                <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-                <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+                <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Courses.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Courses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Courses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="-1328">
               <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <element signature="e#2184#2192#0" expanded="true" />
                 <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
                 <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
                 <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
@@ -85,26 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomHeaders.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/CustomHeaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="64">
               <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +109,8 @@
       <file leaf-file-name="Grade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Grade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
               <folding>
                 <element signature="method#Grade#0;class#Grade#0" expanded="false" />
                 <element signature="method#setDataWystawienia#0;class#Grade#0" expanded="false" />
@@ -128,12 +125,23 @@
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="208">
               <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#Course#0;class#Course#0" expanded="false" />
+                <element signature="e#819#820#0" expanded="false" />
+                <element signature="e#847#848#0" expanded="false" />
                 <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
                 <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+                <element signature="e#1161#1162#0" expanded="false" />
+                <element signature="e#1187#1188#0" expanded="false" />
+                <element signature="e#1222#1223#0" expanded="false" />
+                <element signature="e#1252#1253#0" expanded="false" />
+                <element signature="e#1302#1303#0" expanded="false" />
+                <element signature="e#1332#1333#0" expanded="false" />
+                <element signature="e#1378#1379#0" expanded="false" />
+                <element signature="e#1416#1417#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -142,8 +150,8 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="272">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="28" selection-end-column="84" />
               <folding>
                 <element signature="method#Student#0;class#Student#0" expanded="false" />
                 <element signature="method#setDataUrodzenia#0;class#Student#0" expanded="false" />
@@ -195,13 +203,13 @@
         <option value="$PROJECT_DIR$/src/main/java/GenericExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/structures/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/structures/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Model.java" />
         <option value="$USER_HOME$/laboratoryREST/lab01rest/src/main/java/Courses.java" />
         <option value="$PROJECT_DIR$/src/main/java/project/structures/CustomHeaders.java" />
         <option value="$PROJECT_DIR$/src/main/java/Courses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Students.java" />
+        <option value="$PROJECT_DIR$/src/main/java/project/structures/Grade.java" />
       </list>
     </option>
   </component>
@@ -232,9 +240,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,6 +336,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -625,7 +633,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
+    <frame x="0" y="-1" width="1366" height="741" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -637,7 +646,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32554516" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32554516" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,12 +699,12 @@
             <element signature="e#5933#5951#0" expanded="true" />
             <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
             <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -742,12 +751,12 @@
             <element signature="e#5933#5951#0" expanded="true" />
             <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
             <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -764,7 +773,6 @@
         <state relative-caret-position="672">
           <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
-            <element signature="e#2184#2192#0" expanded="true" />
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
@@ -779,9 +787,20 @@
         <state relative-caret-position="176">
           <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#Course#0;class#Course#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
             <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
             <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,7 +848,6 @@
         <state relative-caret-position="96">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="e#2184#2192#0" expanded="true" />
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
@@ -844,9 +862,20 @@
         <state relative-caret-position="176">
           <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#Course#0;class#Course#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
             <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
             <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -876,12 +905,12 @@
             <element signature="e#5933#5951#0" expanded="true" />
             <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
             <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -928,12 +957,12 @@
             <element signature="e#5933#5951#0" expanded="true" />
             <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
             <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -943,7 +972,6 @@
         <state relative-caret-position="204">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <element signature="e#2184#2192#0" expanded="true" />
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
@@ -958,9 +986,20 @@
         <state relative-caret-position="187">
           <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#Course#0;class#Course#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
             <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
             <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1021,12 +1060,12 @@
             <element signature="e#5933#5951#0" expanded="true" />
             <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
             <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
@@ -1036,7 +1075,6 @@
         <state relative-caret-position="204">
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <element signature="e#2184#2192#0" expanded="true" />
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
@@ -1051,9 +1089,20 @@
         <state relative-caret-position="187">
           <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#Course#0;class#Course#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
             <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
             <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1106,10 +1155,62 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GenericExceptionHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#Course#0;class#Course#0" expanded="false" />
+            <element signature="e#819#820#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
+            <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1332#1333#0" expanded="false" />
+            <element signature="e#1378#1379#0" expanded="false" />
+            <element signature="e#1416#1417#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/CustomHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
+          <folding>
+            <element signature="e#2368#2377#0" expanded="true" />
+            <element signature="e#4145#4154#0" expanded="true" />
+            <element signature="e#5765#5772#0" expanded="true" />
+            <element signature="e#5933#5951#0" expanded="true" />
+            <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
+            <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
+            <marker date="1498241006716" expanded="false" signature="627:636" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
+            <marker date="1498241006716" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="28" selection-end-column="84" />
           <folding>
             <element signature="method#Student#0;class#Student#0" expanded="false" />
             <element signature="method#setDataUrodzenia#0;class#Student#0" expanded="false" />
@@ -1124,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
           <folding>
             <element signature="method#Grade#0;class#Grade#0" expanded="false" />
             <element signature="method#setDataWystawienia#0;class#Grade#0" expanded="false" />
@@ -1136,22 +1237,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/Course.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
-            <element signature="method#Course#0;class#Course#0" expanded="false" />
-            <element signature="method#getNazwa#0;class#Course#0" expanded="false" />
-            <element signature="method#setNazwa#0;class#Course#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="-242">
+          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getInstance#0;class#Model#0" expanded="false" />
@@ -1164,56 +1263,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Courses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="-1328">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <element signature="e#2184#2192#0" expanded="true" />
             <element signature="method#dodajPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#addGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujPrzedmiot#0;class#Courses#0" expanded="false" />
             <element signature="method#aktualizujGrade#0;class#Courses#0" expanded="false" />
             <element signature="method#deleteGrade#0;class#Courses#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/project/structures/CustomHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Students.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2113">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#2368#2377#0" expanded="true" />
-            <element signature="e#4145#4154#0" expanded="true" />
-            <element signature="e#5765#5772#0" expanded="true" />
-            <element signature="e#5933#5951#0" expanded="true" />
-            <element signature="method#dodajStudenta#0;class#Students#0" expanded="false" />
-            <element signature="method#aktualizujStudenta#0;class#Students#0" expanded="false" />
-            <marker date="1498163392995" expanded="false" signature="627:636" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="981:1001" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="1627:1647" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="6619:6637" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="9733:9740" ph="&lt;~&gt;" />
-            <marker date="1498163392995" expanded="false" signature="10180:10198" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>

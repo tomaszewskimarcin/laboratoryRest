@@ -33,7 +33,7 @@ public class Model {
         morphia.mapPackage("project.structures");
         datastore = morphia.createDatastore(new MongoClient(), "project");
         datastore.ensureIndexes();
-        //przykladoweDane();
+        przykladoweDane();
     }
 
     private void przykladoweDane(){
@@ -130,10 +130,10 @@ public class Model {
         return students;
     }
 
-    public boolean addStudent(Student s){
-        s.setlId(indeksStudent);
-        datastore.save(s);
-        students.put(s.getID(),s);
+    public boolean addStudent(Student stu){
+        stu.setlId(indeksStudent);
+        datastore.save(stu);
+        students.put(stu.getID(),stu);
         indeksStudent++;
         return true;
     }

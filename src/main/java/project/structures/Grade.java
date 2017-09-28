@@ -20,7 +20,7 @@ import java.util.Date;
 public class Grade {
 
     @Id()
-    @XmlJavaTypeAdapter(ObjectIdJaxbAdapter.class)
+    //@XmlJavaTypeAdapter(ObjectIdJaxbAdapter.class)
     @XmlTransient
     private ObjectId id;
     @Property("lId")

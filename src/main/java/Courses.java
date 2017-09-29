@@ -183,8 +183,9 @@ public class Courses {
     public synchronized Response aktualizujGrade(Grade g, @PathParam("id") int id,@PathParam("idO") int idO){
         org.mongodb.morphia.query.Query<Grade> query = Model.getInstance().datastore.createQuery(Grade.class).field("lId").equal(idO);
         Grade gr = query.get();
-        if(gr != null && gr.getIdPrzedmiot() == id){
+        if(gr != null){
             Integer student = null;
+            Integer course = null;
             Double grade = null;
             Date date = null;
 
@@ -192,6 +193,12 @@ public class Courses {
                 student = g.getIdStudent();
             }else{
                 student = gr.getIdStudent();
+            }
+
+            if(g.getIdPrzedmiot()!=null){
+                course = g.getIdPrzedmiot();
+            }else{
+                course = id;
             }
 
             if(g.getStopien() != null){
@@ -209,6 +216,7 @@ public class Courses {
             Model.getInstance().datastore.update(query,
                     Model.getInstance().datastore.createUpdateOperations(Grade.class).set("course",id)
                             .set("student",student)
+                            .set("course",course)
                             .set("grade",grade)
                             .set("date",date));
             return Response.status(201).header("Success","updated").build();

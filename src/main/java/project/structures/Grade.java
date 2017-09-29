@@ -26,7 +26,7 @@ public class Grade {
     @Property("lId")
     private int lId;
     @Property("course")
-    private int idPrzedmiot;
+    private Integer idPrzedmiot;
     @Property("student")
     private Integer idStudent;
     @Property("grade")
@@ -65,7 +65,7 @@ public class Grade {
     public Integer getIdStudent(){return idStudent;}
 
     @XmlElement
-    public int getIdPrzedmiot(){return idPrzedmiot;}
+    public Integer getIdPrzedmiot(){return idPrzedmiot;}
 
     @XmlElement
     public Date getDataWystawienia() {
